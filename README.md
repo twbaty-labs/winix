@@ -1,17 +1,17 @@
 # Winix
 
-[![Version](https://img.shields.io/github/v/release/twbaty/winix?label=version&color=blue)](https://github.com/twbaty/winix/releases/latest)
+[![Version](https://img.shields.io/github/v/release/twbaty/winix?label=version&color=blue)](https://github.com/twbaty-labs/winix/releases/latest)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Platform](https://img.shields.io/badge/platform-Windows-0078D4)
 ![Language](https://img.shields.io/badge/language-C%2FC%2B%2B-orange)
-[![CI](https://github.com/twbaty/winix/actions/workflows/ci.yml/badge.svg)](https://github.com/twbaty/winix/actions/workflows/ci.yml)
-[![Download](https://img.shields.io/github/v/release/twbaty/winix?label=download&color=brightgreen)](https://github.com/twbaty/winix/releases/latest)
+[![CI](https://github.com/twbaty-labs/winix/actions/workflows/ci.yml/badge.svg)](https://github.com/twbaty-labs/winix/actions/workflows/ci.yml)
+[![Download](https://img.shields.io/github/v/release/twbaty/winix?label=download&color=brightgreen)](https://github.com/twbaty-labs/winix/releases/latest)
 
 > The Unix Windows should have had.
 
 **Winix** is a free, open-source Windows shell and GNU coreutils suite — bringing `bash`-style scripting and 130+ Unix command-line tools (`ls`, `grep`, `sed`, `awk`, `cat`, `find`, and more) natively to Windows, with no WSL, no MSYS, and no compatibility layers required.
 
-> On Linux and missing Windows commands? Check out the companion project: [Doshell](https://github.com/twbaty/doshell) — DOS-style aliases for Linux.
+> On Linux and missing Windows commands? Check out the companion project: [Doshell](https://github.com/twbaty-labs/doshell) — DOS-style aliases for Linux.
 
 ---
 
@@ -19,14 +19,14 @@
 
 **No build tools required — just download and run.**
 
-👉 **[Download Latest Release](https://github.com/twbaty/winix/releases/latest)** (look for `winix-vX.X-windows-x64.zip` under Assets)
+👉 **[Download Latest Release](https://github.com/twbaty-labs/winix/releases/latest)** (look for `winix-vX.X-windows-x64.zip` under Assets)
 
 1. Download `winix-vX.X-windows-x64.zip` from the link above
 2. Extract the zip to any folder
 3. Right-click `install.bat` → **Run as administrator**
 
 > **Windows SmartScreen warning?** Click **"More info"** → **"Run anyway"**.
-> Winix is open source and built transparently by [GitHub Actions CI](https://github.com/twbaty/winix/actions).
+> Winix is open source and built transparently by [GitHub Actions CI](https://github.com/twbaty-labs/winix/actions).
 > It is not yet code-signed — this will be resolved in a future release.
 
 That's it. Winix will be available from any terminal immediately.
@@ -76,7 +76,7 @@ Winix is a native Windows Unix shell and coreutils suite — no WSL, no MSYS, no
 Requires: [MinGW-w64](https://www.mingw-w64.org/) and [CMake 3.20+](https://cmake.org/)
 
 ```bat
-git clone https://github.com/twbaty/winix.git
+git clone https://github.com/twbaty-labs/winix.git
 cd winix
 build.bat
 install.bat   (run as Administrator)
